@@ -1,4 +1,4 @@
-CPATH='.;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'
+CPATH='.:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar' # : instead of ; so that it's not Windows-specific
 
 rm -rf student-submission
 rm -rf grading-area
